@@ -4,7 +4,7 @@ const isDivisbleByN = require('./challenge-3')
 const highestSum = require('./challenge-4')
 const replaceDivisible = require('./challenge-5')
 
-describe('Challenge 1 Tests', () => {
+describe('Challenge 1 Tests',() => {
   test('basic tests', () => {
     expect(noOfElements([2, 3, 0, 1, 7], 4, 8)).toBe(1)
     expect(noOfElements([3, 3, 3, 5, 18, 6, 20], 15, 30)).toBe(2)
